@@ -1,11 +1,8 @@
 # Quiz App Overview
-***
 ### 1. Problem statement of the App: A concise summary of less than 150 words outlining what the app is all about.
-***
 The app is a 5-question quiz about web development. Its main focus is on certain CS abbreviations and their extended form. The questions will be about (HTML, CSS, PHP, SQL, XML), and what each stand for. Each question is timed, and the player only has 15 seconds to answer each question. Upon finishing the quiz, the results of the quiz are displayed, and a message box asks the user if they want to play again or quit.
 
 ### 2. Functional features of the App: written as a bullet list, outline the functional features of the app.
-***
 * Start Quiz Screen
     * Holds a single element; a button labeled "Start Quiz".
 * Rules Popup
@@ -28,7 +25,6 @@ The app is a 5-question quiz about web development. Its main focus is on certain
     * "Replay quiz" and "quit quiz" buttons are underneath the user's results. Replay sends the user to "Quiz Popup", quit sends them to "Start Quiz Screen".
 
 ### 3./4. Explanation of the directory structure/setup of the App as present in the code base and how different files are linked and working together. Explanation of the codebase in each of relevant files, which in this case are the index.html, style.css, questions.js, and quizApp.js files. 
-***
 * index.html
     * Links style.css, questions.js, and quizApp.js together. quizApp.js uses questions.js and style.css, and everything is displayed in index.
     * Has 4 immediate children:
